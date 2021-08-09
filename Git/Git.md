@@ -60,3 +60,5 @@ git reset HEAD [文件夹]文件名
 撤销追踪
 ```
 
+![image-20210809225536554](Git.assets/image-20210809225536554.png)
+
