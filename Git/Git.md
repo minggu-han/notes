@@ -40,3 +40,23 @@ git mv 文件名1 文件夹[文件名2]
 移动文件
 ```
 
+
+
+git log -p [文件夹]文件名
+
+```mark
+查看文件与上次conmit之间的变化
+```
+
+git checkout -- [文件夹]文件名
+
+```mark
+还原到上次commit
+```
+
+git reset HEAD [文件夹]文件名 
+
+```mark
+撤销追踪
+```
+
