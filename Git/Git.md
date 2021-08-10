@@ -28,6 +28,9 @@ git init
 git add .
 
 git commit -m "本次提交描述信息"
+
+#将本地的dev分支提交到远程dev分支
+git push origin dev
 ```
 
 
@@ -100,5 +103,19 @@ git push origin --delete [branch-name]
 	它意思是说，切换到dev分支上，接着跟远程的origin地址上的dev分支关联起来，这里要注意origin代表是一个路径，可以用git remote -v查看，说白了，origin/dev有点像是git@github.com:xxx/yyy.git/dev
 	
 	接着在dev当前分支下进行操作，add/commit后，用git push origin dev，意思是推送当前的dev分支到远程origin地址的dev分支上。
+```
+
+
+
+
+
+```mark
+#查看哪些分支已被并入当前分支
+git branch --merge
+
+#查看哪些分支还未合并到当前分支
+git branch --no-merged
+
+
 ```
 
